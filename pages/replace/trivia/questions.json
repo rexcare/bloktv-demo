@@ -1,0 +1,452 @@
+[
+  {
+    "question": "What is the capital of Japan?",
+    "answerOptions": [
+      { "answer": "Beijing" },
+      { "answer": "Seoul" },
+      { "answer": "Tokyo", "isCorrect": true },
+      { "answer": "Bangkok" }
+    ]
+  },
+  {
+    "question": "Which planet is known as the Red Planet?",
+    "answerOptions": [
+      { "answer": "Earth" },
+      { "answer": "Mars", "isCorrect": true },
+      { "answer": "Jupiter" },
+      { "answer": "Saturn" }
+    ]
+  },
+  {
+    "question": "What is the tallest mountain in the world?",
+    "answerOptions": [
+      { "answer": "K2" },
+      { "answer": "Mount Kilimanjaro" },
+      { "answer": "Mount Everest", "isCorrect": true },
+      { "answer": "Mount Fuji" }
+    ]
+  },
+  {
+    "question": "Who wrote the play 'Romeo and Juliet'?",
+    "answerOptions": [
+      { "answer": "William Shakespeare", "isCorrect": true },
+      { "answer": "Charles Dickens" },
+      { "answer": "Jane Austen" },
+      { "answer": "Mark Twain" }
+    ]
+  },
+  {
+    "question": "Which element has the chemical symbol 'O'?",
+    "answerOptions": [
+      { "answer": "Oxygen", "isCorrect": true },
+      { "answer": "Gold" },
+      { "answer": "Osmium" },
+      { "answer": "Oganesson" }
+    ]
+  },
+  {
+    "question": "What is the largest mammal in the world?",
+    "answerOptions": [
+      { "answer": "Elephant" },
+      { "answer": "Blue Whale", "isCorrect": true },
+      { "answer": "Great White Shark" },
+      { "answer": "Giraffe" }
+    ]
+  },
+  {
+    "question": "Which country is famous for the Eiffel Tower?",
+    "answerOptions": [
+      { "answer": "Spain" },
+      { "answer": "Italy" },
+      { "answer": "France", "isCorrect": true },
+      { "answer": "Germany" }
+    ]
+  },
+  {
+    "question": "What is the smallest unit of life?",
+    "answerOptions": [
+      { "answer": "Atom" },
+      { "answer": "Molecule" },
+      { "answer": "Cell", "isCorrect": true },
+      { "answer": "Organism" }
+    ]
+  },
+  {
+    "question": "Who painted the Mona Lisa?",
+    "answerOptions": [
+      { "answer": "Vincent van Gogh" },
+      { "answer": "Pablo Picasso" },
+      { "answer": "Leonardo da Vinci", "isCorrect": true },
+      { "answer": "Claude Monet" }
+    ]
+  },
+  {
+    "question": "What is the main ingredient in guacamole?",
+    "answerOptions": [
+      { "answer": "Tomato" },
+      { "answer": "Onion" },
+      { "answer": "Avocado", "isCorrect": true },
+      { "answer": "Pepper" }
+    ]
+  },
+  {
+    "question": "Which animal is known as the 'King of the Jungle'?",
+    "answerOptions": [
+      { "answer": "Elephant" },
+      { "answer": "Tiger" },
+      { "answer": "Lion", "isCorrect": true },
+      { "answer": "Gorilla" }
+    ]
+  },
+  {
+    "question": "What is the hardest natural substance on Earth?",
+    "answerOptions": [
+      { "answer": "Gold" },
+      { "answer": "Iron" },
+      { "answer": "Diamond", "isCorrect": true },
+      { "answer": "Silver" }
+    ]
+  },
+  {
+    "question": "In which year did the Titanic sink?",
+    "answerOptions": [
+      { "answer": "1905" },
+      { "answer": "1912", "isCorrect": true },
+      { "answer": "1918" },
+      { "answer": "1923" }
+    ]
+  },
+  {
+    "question": "What is the name of the longest river in the world?",
+    "answerOptions": [
+      { "answer": "Amazon River" },
+      { "answer": "Yangtze River" },
+      { "answer": "Nile River", "isCorrect": true },
+      { "answer": "Mississippi River" }
+    ]
+  },
+  {
+    "question": "Which organ is responsible for pumping blood throughout the body?",
+    "answerOptions": [
+      { "answer": "Lungs" },
+      { "answer": "Liver" },
+      { "answer": "Heart", "isCorrect": true },
+      { "answer": "Kidney" }
+    ]
+  },
+  {
+    "question": "Who is the author of the 'Harry Potter' series?",
+    "answerOptions": [
+      { "answer": "J.R.R. Tolkien" },
+      { "answer": "J.K. Rowling", "isCorrect": true },
+      { "answer": "George R.R. Martin" },
+      { "answer": "Stephen King" }
+    ]
+  },
+  {
+    "question": "Which planet is known for its rings?",
+    "answerOptions": [
+      { "answer": "Mars" },
+      { "answer": "Jupiter" },
+      { "answer": "Saturn", "isCorrect": true },
+      { "answer": "Venus" }
+    ]
+  },
+  {
+    "question": "What is the largest ocean on Earth?",
+    "answerOptions": [
+      { "answer": "Atlantic Ocean" },
+      { "answer": "Indian Ocean" },
+      { "answer": "Pacific Ocean", "isCorrect": true },
+      { "answer": "Arctic Ocean" }
+    ]
+  },
+  {
+    "question": "Which country gifted the Statue of Liberty to the USA?",
+    "answerOptions": [
+      { "answer": "Germany" },
+      { "answer": "France", "isCorrect": true },
+      { "answer": "Spain" },
+      { "answer": "Italy" }
+    ]
+  },
+  {
+    "question": "What is the chemical symbol for gold?",
+    "answerOptions": [
+      { "answer": "Go" },
+      { "answer": "Ag" },
+      { "answer": "Au", "isCorrect": true },
+      { "answer": "Gd" }
+    ]
+  },
+  {
+    "question": "What is the capital of Canada?",
+    "answerOptions": [
+      { "answer": "Toronto" },
+      { "answer": "Vancouver" },
+      { "answer": "Ottawa", "isCorrect": true },
+      { "answer": "Montreal" }
+    ]
+  },
+  {
+    "question": "Who developed the theory of relativity?",
+    "answerOptions": [
+      { "answer": "Isaac Newton" },
+      { "answer": "Albert Einstein", "isCorrect": true },
+      { "answer": "Nikola Tesla" },
+      { "answer": "Galileo Galilei" }
+    ]
+  },
+  {
+    "question": "Which planet is known as the Morning Star?",
+    "answerOptions": [
+      { "answer": "Mars" },
+      { "answer": "Jupiter" },
+      { "answer": "Venus", "isCorrect": true },
+      { "answer": "Saturn" }
+    ]
+  },
+  {
+    "question": "What is the largest land animal?",
+    "answerOptions": [
+      { "answer": "Giraffe" },
+      { "answer": "Elephant", "isCorrect": true },
+      { "answer": "Rhinoceros" },
+      { "answer": "Hippopotamus" }
+    ]
+  },
+  {
+    "question": "Which is the longest bone in the human body?",
+    "answerOptions": [
+      { "answer": "Humerus" },
+      { "answer": "Femur", "isCorrect": true },
+      { "answer": "Tibia" },
+      { "answer": "Fibula" }
+    ]
+  },
+  {
+    "question": "Which city is known as the Big Apple?",
+    "answerOptions": [
+      { "answer": "Los Angeles" },
+      { "answer": "Chicago" },
+      { "answer": "New York City", "isCorrect": true },
+      { "answer": "Miami" }
+    ]
+  },
+  {
+    "question": "Who painted the Sistine Chapel ceiling?",
+    "answerOptions": [
+      { "answer": "Leonardo da Vinci" },
+      { "answer": "Vincent van Gogh" },
+      { "answer": "Michelangelo", "isCorrect": true },
+      { "answer": "Raphael" }
+    ]
+  },
+  {
+    "question": "Which planet is known as the Earth's twin?",
+    "answerOptions": [
+      { "answer": "Mars" },
+      { "answer": "Venus", "isCorrect": true },
+      { "answer": "Jupiter" },
+      { "answer": "Mercury" }
+    ]
+  },
+  {
+    "question": "Who is the author of 'Pride and Prejudice'?",
+    "answerOptions": [
+      { "answer": "Emily Brontë" },
+      { "answer": "Charles Dickens" },
+      { "answer": "Jane Austen", "isCorrect": true },
+      { "answer": "Mark Twain" }
+    ]
+  },
+  {
+    "question": "What is the smallest prime number?",
+    "answerOptions": [
+      { "answer": "1" },
+      { "answer": "2", "isCorrect": true },
+      { "answer": "3" },
+      { "answer": "5" }
+    ]
+  },
+  {
+    "question": "Which gas do plants absorb from the atmosphere?",
+    "answerOptions": [
+      { "answer": "Oxygen" },
+      { "answer": "Carbon Dioxide", "isCorrect": true },
+      { "answer": "Nitrogen" },
+      { "answer": "Hydrogen" }
+    ]
+  },
+  {
+    "question": "What is the hardest known natural material?",
+    "answerOptions": [
+      { "answer": "Steel" },
+      { "answer": "Iron" },
+      { "answer": "Diamond", "isCorrect": true },
+      { "answer": "Granite" }
+    ]
+  },
+  {
+    "question": "What is the chemical symbol for water?",
+    "answerOptions": [
+      { "answer": "O2" },
+      { "answer": "H2" },
+      { "answer": "H2O", "isCorrect": true },
+      { "answer": "OH" }
+    ]
+  },
+  {
+    "question": "Who invented the telephone?",
+    "answerOptions": [
+      { "answer": "Nikola Tesla" },
+      { "answer": "Alexander Graham Bell", "isCorrect": true },
+      { "answer": "Thomas Edison" },
+      { "answer": "Guglielmo Marconi" }
+    ]
+  },
+  {
+    "question": "Which planet is known as the Blue Planet?",
+    "answerOptions": [
+      { "answer": "Earth", "isCorrect": true },
+      { "answer": "Neptune" },
+      { "answer": "Uranus" },
+      { "answer": "Mars" }
+    ]
+  },
+  {
+    "question": "Who was the first man to walk on the moon?",
+    "answerOptions": [
+      { "answer": "Buzz Aldrin" },
+      { "answer": "Yuri Gagarin" },
+      { "answer": "Neil Armstrong", "isCorrect": true },
+      { "answer": "Michael Collins" }
+    ]
+  },
+  {
+    "question": "What is the capital of Italy?",
+    "answerOptions": [
+      { "answer": "Venice" },
+      { "answer": "Milan" },
+      { "answer": "Rome", "isCorrect": true },
+      { "answer": "Florence" }
+    ]
+  },
+  {
+    "question": "Which element is commonly known as 'quicksilver'?",
+    "answerOptions": [
+      { "answer": "Mercury", "isCorrect": true },
+      { "answer": "Lead" },
+      { "answer": "Silver" },
+      { "answer": "Tin" }
+    ]
+  },
+  {
+    "question": "What is the largest continent?",
+    "answerOptions": [
+      { "answer": "Africa" },
+      { "answer": "Asia", "isCorrect": true },
+      { "answer": "Europe" },
+      { "answer": "North America" }
+    ]
+  },
+  {
+    "question": "Who discovered penicillin?",
+    "answerOptions": [
+      { "answer": "Marie Curie" },
+      { "answer": "Albert Einstein" },
+      { "answer": "Alexander Fleming", "isCorrect": true },
+      { "answer": "Isaac Newton" }
+    ]
+  },
+  {
+    "question": "Which country is known for inventing the pizza?",
+    "answerOptions": [
+      { "answer": "France" },
+      { "answer": "Spain" },
+      { "answer": "Italy", "isCorrect": true },
+      { "answer": "Greece" }
+    ]
+  },
+  {
+    "question": "What is the tallest building in the world as of 2023?",
+    "answerOptions": [
+      { "answer": "Shanghai Tower" },
+      { "answer": "Abraj Al-Bait Clock Tower" },
+      { "answer": "Burj Khalifa", "isCorrect": true },
+      { "answer": "One World Trade Center" }
+    ]
+  },
+  {
+    "question": "Which organ in the human body is primarily responsible for detoxification?",
+    "answerOptions": [
+      { "answer": "Heart" },
+      { "answer": "Kidneys" },
+      { "answer": "Liver", "isCorrect": true },
+      { "answer": "Lungs" }
+    ]
+  },
+  {
+    "question": "What is the main language spoken in Brazil?",
+    "answerOptions": [
+      { "answer": "Spanish" },
+      { "answer": "Portuguese", "isCorrect": true },
+      { "answer": "French" },
+      { "answer": "English" }
+    ]
+  },
+  {
+    "question": "Which country is home to the kangaroo?",
+    "answerOptions": [
+      { "answer": "India" },
+      { "answer": "South Africa" },
+      { "answer": "Australia", "isCorrect": true },
+      { "answer": "Brazil" }
+    ]
+  },
+  {
+    "question": "What is the chemical symbol for gold?",
+    "answerOptions": [
+      { "answer": "Go" },
+      { "answer": "Ag" },
+      { "answer": "Au", "isCorrect": true },
+      { "answer": "Gd" }
+    ]
+  },
+  {
+    "question": "Which country won the FIFA World Cup in 2018?",
+    "answerOptions": [
+      { "answer": "Brazil" },
+      { "answer": "Germany" },
+      { "answer": "France", "isCorrect": true },
+      { "answer": "Argentina" }
+    ]
+  },
+  {
+    "question": "Which planet is known for its Great Red Spot?",
+    "answerOptions": [
+      { "answer": "Mars" },
+      { "answer": "Jupiter", "isCorrect": true },
+      { "answer": "Saturn" },
+      { "answer": "Neptune" }
+    ]
+  },
+  {
+    "question": "What is the primary ingredient in hummus?",
+    "answerOptions": [
+      { "answer": "Beans" },
+      { "answer": "Lentils" },
+      { "answer": "Chickpeas", "isCorrect": true },
+      { "answer": "Peas" }
+    ]
+  },
+  {
+    "question": "What is the capital of South Korea?",
+    "answerOptions": [
+      { "answer": "Beijing" },
+      { "answer": "Tokyo" },
+      { "answer": "Seoul", "isCorrect": true },
+      { "answer": "Bangkok" }
+    ]
+  }
+]

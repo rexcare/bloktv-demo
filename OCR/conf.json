@@ -1,0 +1,13 @@
+{
+    "threshold": 5,
+    "num_consecutive_frames": 5,
+    "message_frames": 50,
+    "num_skip_frames": 3,
+    "analysis_frame_shape": [1280,720],
+    "numbers_frames_to_wait": 30,
+    "show_fps": true,
+    "save_demo": false,
+    "ocr_detector": "easyocr",
+    "wait_for_black_screen": false,
+    "monitor": 1
+}

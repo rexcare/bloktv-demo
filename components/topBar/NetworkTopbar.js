@@ -1,0 +1,78 @@
+import React, { useState, useEffect } from 'react';
+import Link from 'next/link';
+
+// importing icon components
+import { BsWifi, BsBell } from 'react-icons/bs';
+import { AiTwotoneSetting } from 'react-icons/ai';
+
+import Clock from '../topBar/topBarClock';
+// TopBar component definition
+const NetTopBar = ({ isReplacementModeOn }) => {
+  const [isInternetSwitchOn, setIsInternetSwitchOn] = useState(false);
+
+  useEffect(() => {
+    const storedInternetSwitchState = JSON.parse(localStorage.getItem('isInternetSwitchOn'));
+
+    if (isReplacementModeOn) {
+      setIsInternetSwitchOn(true);
+      localStorage.setItem('isInternetSwitchOn', JSON.stringify(true));
+    } else if (storedInternetSwitchState !== null) {
+      setIsInternetSwitchOn(storedInternetSwitchState);
+    } else {
+      setIsInternetSwitchOn(false);
+    }
+  }, [isReplacementModeOn]);
+
+  const handleInternetSwitch = () => {
+    if (!isReplacementModeOn) {
+      const newState = !isInternetSwitchOn;
+      setIsInternetSwitchOn(newState);
+      localStorage.setItem('isInternetSwitchOn', JSON.stringify(newState));
+    }
+  };
+  return (
+    <nav className="p-6 pt-20 font-sans">
+      <div className="pl-12 pr-12 mx-auto">
+        {/* Container for logo and navigation icons */}
+        <div className="font-sans flex justify-between items-center">
+          {/* Logo */}
+          <p className='font-bold flex flex-col text-white'>
+            <span style={{ fontSize: '2rem' }}>Network</span>
+            <Link href="/" className='text-sm focusable text-[#21A8E5] hover:text-gray-700'>Back</Link>
+          </p>
+
+          {/* Navigation Icons */}
+          <div className="flex space-x-8 items-center">
+
+            {/* Wifi Icon */}           
+            <Link className="focusable" href="/networks" passHref>
+              <div className="bg-[#584FCC80] p-3 rounded-full cursor-pointer transition duration-500 hover:scale-105 transform">
+                <BsWifi color='white' fontSize={20} />
+              </div>
+            </Link>           
+
+            {/* Bell Icon */}
+
+            <Link className="focusable" href="/" passHref>
+              <div className="bg-[#584FCC80] p-3 rounded-full cursor-pointer transition duration-500 hover:scale-105 transform">
+                <BsBell color='white' fontSize={20} />
+              </div>
+            </Link>
+
+            {/* Settings Icon */}
+            <Link className="focusable" href="/" passHref>
+              <div className="bg-[#584FCC80] p-3 rounded-full cursor-pointer transition duration-500 hover:scale-105 transform">
+                <AiTwotoneSetting color='white' fontSize={20} />
+              </div>
+            </Link>
+
+            {/* Clock Component */}
+            <Clock fontSize="1.4rem" />
+          </div>
+        </div>
+      </div>
+    </nav>
+  );
+};
+
+export default NetTopBar;

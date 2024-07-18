@@ -1,0 +1,50 @@
+{
+    "All": 
+        {
+            "Indicator": 
+                {   
+                "bboxes": [[0,0,0.2,1]],
+                "Keywords": ["Ad","Sponsored","of","video","LEARN"]
+                }
+        },
+    "Netflix": 
+        {
+            "Indicator": 
+                {   
+                "bboxes": [[0.8,0,1,0.2]],
+                "Keywords": ["Ad"]
+                }
+        },
+    "Youtube":
+        {
+            "Indicator": 
+                {   
+                "bboxes": [[0,0.7,0.3,1]],
+                "Keywords": ["Sponsored"]
+                }
+        },
+	"freevee":
+        {
+            "Indicator": 
+                {   
+                "bboxes": [[0,0,0.2,1]],
+                "Keywords": ["Ad","of"]
+                }
+        },
+	"Tubi":
+        {
+            "Indicator": 
+                {   
+                "bboxes": [[0,0.7,0.3,1]],
+                "Keywords": ["video"]
+                }
+        },
+	"Disney+":
+        {
+            "Indicator": 
+                {   
+                "bboxes": [[0,0.7,0.3,1]],
+                "Keywords": ["LEARN"]
+                }
+        }
+}

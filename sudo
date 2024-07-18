@@ -1,0 +1,14 @@
+[Unit]
+Description=Next.js Application
+After=network.target
+
+[Service]
+Type=simple
+User=bloktv
+WorkingDirectory=/home/bloktv/Desktop/blokTV-sources-v1.4/block-tv-1.4
+ExecStart=/usr/bin/npm run start
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
+
