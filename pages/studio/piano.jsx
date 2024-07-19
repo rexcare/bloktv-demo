@@ -6,8 +6,6 @@ import GameLayout from '../../components/gameLayout';
 import piano from '../../public/piano.svg';
 
 const UsbDrive = () => {
-  const router = useRouter();
-
   return (
     <GameLayout>
       <h2 className='text-white text-[56px]'>BlokTV Studio</h2>

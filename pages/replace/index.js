@@ -6,6 +6,7 @@ import MainLayout from '../../components/mainLayout';
 const useReplacementMode = () => {
   const [isReplacementModeOn, setIsReplacementModeOn] = useState(false);
   const [activeButton, setActiveButton] = useState(null);
+  const [storedActiveButton, setStoredActiveButton] = useState(true);
   const [isInitialized, setIsInitialized] = useState(false);
 
   useEffect(() => {

@@ -5,7 +5,7 @@ config.autoAddCss = false;
 
 function MyApp({ Component, pageProps }) {
   return (
-    <div className='bg-[#0C0022]'>
+    <div className='bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-[#0C0022]/85 via-[#0C0022] to-[#0C0022]'>
       <Component {...pageProps} />
     </div>
   );

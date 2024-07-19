@@ -94,12 +94,12 @@ const HomePage = () => {
           </Link>
         </div>
         <div className='col-span-1 '>
-          <Link className='focusable' href='/home/network'>
+          <Link className='focusable' href='/home/streaming'>
             <IconCard
               IconComponent={stream}
               text='Streaming Apps'
               bgColorClass='bg-[#240D50]'
-              href='/home/network'
+              href='/home/streaming'
             />
           </Link>
         </div>

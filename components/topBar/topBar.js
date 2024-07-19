@@ -4,7 +4,6 @@ import Link from 'next/link';
 import { BsSearch, BsWifi, BsBell } from 'react-icons/bs';
 import { AiTwotoneSetting } from 'react-icons/ai';
 import Clock from '../topBar/topBarClock';
-import avatar from '../../public/avatar.png';
 
 const TopBar = ({ isReplacementModeOn, logo }) => {
   const [isInternetSwitchOn, setIsInternetSwitchOn] = useState(false);
@@ -54,15 +53,8 @@ const TopBar = ({ isReplacementModeOn, logo }) => {
 
           {/* Navigation Icons */}
           <div className='flex items-center space-x-8'>
-            {/* Search Icon */}
-            <Link className='focusable' href='/' passHref>
-              <div className='bg-[#584FCC80] p-3 rounded-full cursor-pointer transition duration-500 hover:scale-105 transform'>
-                <BsSearch color='white' fontSize={20} />
-              </div>
-            </Link>
-
             {/* Wifi Icon */}
-            <Link className='focusable' href='/networks' passHref>
+            <Link className='focusable' href='/network' passHref>
               <div className='bg-[#584FCC80] p-3 rounded-full cursor-pointer transition duration-500 hover:scale-105 transform'>
                 <BsWifi color='white' fontSize={20} />
               </div>
@@ -83,13 +75,6 @@ const TopBar = ({ isReplacementModeOn, logo }) => {
             <Link className='focusable' href='/' passHref>
               <div className='bg-[#584FCC80] p-3 rounded-full cursor-pointer transition duration-500 hover:scale-105 transform'>
                 <AiTwotoneSetting color='white' fontSize={20} />
-              </div>
-            </Link>
-
-            {/* Settings Icon */}
-            <Link className='relative focusable' href='/' passHref>
-              <div className='bg-[#584FCC80] rounded-full cursor-pointer transition duration-500 hover:scale-105 transform overflow-hidden relative'>
-                <Image src={avatar} width={48} height={48} alt={'Logos'} />
               </div>
             </Link>
 

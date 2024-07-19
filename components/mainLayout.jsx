@@ -27,7 +27,7 @@ const MainLayout = ({ children }) => {
       icon: faStore,
     },
     { label: 'BlokTv Studio', href: '/studio', icon: faMicrophoneLines },
-    { label: 'Settings', href: '/settings', icon: faGear },
+    { label: 'Settings', href: '/network', icon: faGear },
   ];
   return (
     <div className='px-12 xl:px-32 h-[100vh]'>

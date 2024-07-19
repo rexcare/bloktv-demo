@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { BsSearch, BsWifi, BsBell } from 'react-icons/bs';
+import { BsWifi, BsBell } from 'react-icons/bs';
 import { AiTwotoneSetting } from 'react-icons/ai';
 import Clock from './topBarClock';
 
@@ -52,23 +52,17 @@ const GameTopBar = ({ isReplacementModeOn, logo }) => {
               <div className='w-3 h-3 bg-red-500 rounded-full'></div>
               <span>Live</span>
             </div>
-            <div className='relative flex items-center justify-center'>
+            <div className='relative flex items-center justify-center bg-fixed bg-no-repeat bg-cover'>
               <div
-                className='h-[42px] w-[120px]'
+                className='h-[52px] w-[110px] rounded-md flex justify-center items-center'
                 style={{
                   clipPath:
                     'polygon(10% 0, 100% 0, 100% 80%, 90% 100%, 0 100%, 0 20%)',
-                  background: `linear-gradient(155deg, #584FCC -20%, rgba(88, 79, 100, 0) 80%), linear-gradient(335.05deg, #02DBF5 -25.36%, rgba(88, 79, 100, 0) 58.49%)`,
+                  backgroundImage: 'url(http://localhost:3000/rect.svg)',
                 }}
-              ></div>
-              <div
-                className='absolute h-[36px] w-[114px] bg-[#0C0022] top-[3px] left-[3px]'
-                style={{
-                  clipPath:
-                    'polygon(10% 0, 100% 0, 100% 80%, 90% 100%, 0 100%, 0 20%)',
-                }}
-              ></div>
-              <span className='absolute top-[6px]'>Apps</span>
+              >
+                <span className='bg-transparent'>Apps</span>
+              </div>
             </div>
             <span>Library</span>
           </div>
@@ -78,15 +72,8 @@ const GameTopBar = ({ isReplacementModeOn, logo }) => {
 
           {/* Navigation Icons */}
           <div className='flex items-center space-x-8'>
-            {/* Search Icon */}
-            <Link className='focusable' href='/' passHref>
-              <div className='bg-[#584FCC80] p-3 rounded-full cursor-pointer transition duration-500 hover:scale-105 transform'>
-                <BsSearch color='white' fontSize={20} />
-              </div>
-            </Link>
-
             {/* Wifi Icon */}
-            <Link className='focusable' href='/networks' passHref>
+            <Link className='focusable' href='/network' passHref>
               <div className='bg-[#584FCC80] p-3 rounded-full cursor-pointer transition duration-500 hover:scale-105 transform'>
                 <BsWifi color='white' fontSize={20} />
               </div>
@@ -95,8 +82,11 @@ const GameTopBar = ({ isReplacementModeOn, logo }) => {
             {/* Bell Icon */}
 
             <Link className='focusable' href='/' passHref>
-              <div className='bg-[#584FCC80] p-3 rounded-full cursor-pointer transition duration-500 hover:scale-105 transform'>
+              <div className='bg-[#584FCC80] p-3 rounded-full cursor-pointer transition duration-500 hover:scale-105 transform relative'>
                 <BsBell color='white' fontSize={20} />
+                <div className='absolute top-0 right-0 w-4 h-4 text-center bg-red-600 rounded-full text-[14px]'>
+                  2
+                </div>
               </div>
             </Link>
 

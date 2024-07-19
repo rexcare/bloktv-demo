@@ -11,7 +11,9 @@ const AppTopBar = ({ isReplacementModeOn }) => {
   const [isInternetSwitchOn, setIsInternetSwitchOn] = useState(false);
 
   useEffect(() => {
-    const storedInternetSwitchState = JSON.parse(localStorage.getItem('isInternetSwitchOn'));
+    const storedInternetSwitchState = JSON.parse(
+      localStorage.getItem('isInternetSwitchOn')
+    );
 
     if (isReplacementModeOn) {
       setIsInternetSwitchOn(true);
@@ -31,43 +33,49 @@ const AppTopBar = ({ isReplacementModeOn }) => {
     }
   };
   return (
-    <nav className="p-6 pt-20 font-sans">
-      <div className="pl-12 pr-12 mx-auto">
+    <nav className='p-6 pt-20 font-sans'>
+      <div className='pl-12 pr-12 mx-auto'>
         {/* Container for logo and navigation icons */}
-        <div className="font-sans flex justify-between items-center">
+        <div className='flex items-center justify-between font-sans'>
           {/* Logo */}
-          <p className='font-bold flex flex-col text-white'>
-            
-            <Link href="/replace" className='text-sm focusable text-[#21A8E5] hover:text-gray-700'>Back</Link>
+          <p className='flex flex-col font-bold text-white'>
+            <Link
+              href='/replace'
+              className='text-sm focusable text-[#21A8E5] hover:text-gray-700'
+            >
+              Back
+            </Link>
           </p>
 
           {/* Navigation Icons */}
-          <div className="flex space-x-8 items-center">
-
-            {/* Wifi Icon */}           
-            <Link className="focusable" href="/networks" passHref>
-              <div className="bg-[#584FCC80] p-3 rounded-full cursor-pointer transition duration-500 hover:scale-105 transform">
+          <div className='flex items-center space-x-8'>
+            {/* Wifi Icon */}
+            <Link className='focusable' href='/network' passHref>
+              <div className='bg-[#584FCC80] p-3 rounded-full cursor-pointer transition duration-500 hover:scale-105 transform'>
                 <BsWifi color='white' fontSize={20} />
               </div>
-            </Link>           
+            </Link>
 
             {/* Bell Icon */}
 
-            <Link className="focusable" href="/" passHref>
-              <div className="bg-[#584FCC80] p-3 rounded-full cursor-pointer transition duration-500 hover:scale-105 transform">
+            <Link className='focusable' href='/' passHref>
+              <div className='bg-[#584FCC80] p-3 rounded-full cursor-pointer transition duration-500 hover:scale-105 transform relative'>
                 <BsBell color='white' fontSize={20} />
+                <div className='absolute top-0 right-0 w-4 h-4 text-center bg-red-600 rounded-full text-[14px]'>
+                  2
+                </div>
               </div>
             </Link>
 
             {/* Settings Icon */}
-            <Link className="focusable" href="/" passHref>
-              <div className="bg-[#584FCC80] p-3 rounded-full cursor-pointer transition duration-500 hover:scale-105 transform">
+            <Link className='focusable' href='/' passHref>
+              <div className='bg-[#584FCC80] p-3 rounded-full cursor-pointer transition duration-500 hover:scale-105 transform'>
                 <AiTwotoneSetting color='white' fontSize={20} />
               </div>
             </Link>
 
             {/* Clock Component */}
-            <Clock fontSize="1.4rem" />
+            <Clock fontSize='1.4rem' />
           </div>
         </div>
       </div>
